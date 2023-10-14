@@ -1,5 +1,9 @@
 # Data engineering project template
 
+Accelerate your data project's development with this repository template that includes **Infrastructure as Code** (IAC), **Continuous Integration and Continuous Delivery** (CI/CD), data migrations, and testing.
+
+This template provides a streamlined and efficient solution for building reliable and scalable data projects. Try it now and experience faster and more efficient workflows.
+
 Detailed explanation can be found **[`in this post`](https://dataisadope.com/blog/data-engineering-projects-with-free-template/)**
 
 ## Prerequisites   
