@@ -53,8 +53,42 @@ make cloud-metabase # this command will forward Metabase port from EC2 to your m
 ![DE Infra](/assets/images/infra.png)
 
 **Project structure**
-![Project structure](/assets/images/proj_1.png)
-![Project structure - GH actions](/assets/images/proj_2.png)
+```tree
+.
+├── LICENSE
+├── Makefile
+├── README.md
+├── assets
+│   └── images
+│       ├── infra.png
+│       ├── proj_1.png
+│       └── proj_2.png
+├── containers
+│   └── airflow
+│       ├── Dockerfile
+│       └── requirements.txt
+├── dags
+├── docker-compose.yml
+├── env
+├── migrations
+│   └── 20221023_01_JVZ9p-create-bitcoin-schema.py
+├── terraform
+│   ├── main.tf
+│   ├── output.tf
+│   └── variable.tf
+└── tests
+    └── dags
+        └── test_dag_validity.py
+```
+
+**Project structure - GH actions**
+```tree
+.
+├── CODEOWNERS
+└── workflows
+    ├── cd.yml
+    └── ci.yml
+```
 
 Database migrations can be created as shown below.
 
